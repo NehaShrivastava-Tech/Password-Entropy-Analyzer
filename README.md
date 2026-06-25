@@ -29,7 +29,7 @@ E = L \times \log_2(R)
 
 To map the password against standard modern compute vulnerabilities, the tool determines total search space combinations (R^L) and divides it against a baseline automated brute-force cluster processing at *100 Billion guesses per second*:
 
-> text{Time to Crack} = frac{R^L}{100,000,000,000}.
+> {Time to Crack} = frac{R^L}{100,000,000,000}.
 ---
 
 ## 🛠️ **Tech Stack & Implementation Details**
@@ -69,4 +69,4 @@ To map the password against standard modern compute vulnerabilities, the tool de
    cd password-entropy-analyzer
 
 3. **Launch the App**:
-   Open `index.html` in your favorite browser or run via the VS Code Live Server extension.
+   Open `index.html` in your favorite browser or run via the VS Code **Live Server** extension.
