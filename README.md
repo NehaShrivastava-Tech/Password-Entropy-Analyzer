@@ -1,5 +1,6 @@
 # 🔐 **Password Entropy Analyzer**
 > A high-performance, client-side security utility engineered to audit authentication credential strength using information entropy models and combinatorial mathematics.
+
 ---
 
 ## 🚀 **Live Visual Demo**
