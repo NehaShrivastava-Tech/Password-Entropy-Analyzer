@@ -3,7 +3,8 @@
 ---
 
 ## 🚀 **Live Visual Demo**
-![Application Interface](./1000033850.jpg)
+<img width="449" height="328" alt="Password Anlyzer" src="https://github.com/user-attachments/assets/a14d936a-c621-475f-b50f-97fb4b2b16e0" />
+
 ---
 
 ## 🧠 **Architectural Overview & Core Logic**
@@ -24,7 +25,9 @@ E = L \times \log_2(R)
 *Where **L** represents the exact length of the password string, and **R** represents the calculated pool size.*
 
 ### 3️⃣ Brute-Force Time Complexity Estimation
-To map the password against standard modern compute vulnerabilities, the tool determines total search space combinations ($R^L$) and divides it against a baseline automated brute-force cluster processing at **100 Billion guesses per second**:
+
+To map the password against standard modern compute vulnerabilities, the tool determines total search space combinations (R^L) and divides it against a baseline automated brute-force cluster processing at *100 Billion guesses per second*:
+
 \text{Time to Crack} = \frac{R^L}{100,000,000,000}
 ---
 
