@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Entropy Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="analyzer-container">
+        <h2>Password Entropy Analyzer</h2>
+        <p class="subtitle">Cryptographic Strength & Complexity Audit</p>
+        
+        <input type="password" id="password-input" placeholder="Enter a password to analyze...">
+        
+        <div class="meter-track">
+            <div id="strength-bar"></div>
+        </div>
+        
+        <div class="metrics-panel">
+            <p><strong>Entropy Score:</strong> <span id="entropy-score">0</span> bits</p>
+            <p><strong>Estimated Crack Time:</strong> <span id="crack-time">Instant</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

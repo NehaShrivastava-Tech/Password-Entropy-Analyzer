@@ -1,0 +1,79 @@
+body {
+    background-color: #f0f4f8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.analyzer-container {
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    width: 380px;
+}
+
+h2 {
+    margin: 0 0 5px 0;
+    color: #1a1a1a;
+    font-size: 24px;
+}
+
+.subtitle {
+    margin: 0 0 25px 0;
+    color: #4285F4; /* Google Blue */
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+}
+
+input:focus {
+    border-color: #4285F4;
+    outline: none;
+}
+
+.meter-track {
+    background-color: #eef2f5;
+    height: 8px;
+    border-radius: 4px;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+#strength-bar {
+    height: 100%;
+    width: 0%; /* Dynamic adjustment */
+    background-color: #ea4335; /* Starts Red */
+    transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.metrics-panel {
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 6px;
+    border-left: 4px solid #4285F4;
+}
+
+.metrics-panel p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #4a4a4a;
+}
+
+span {
+    font-weight: 600;
+    color: #1a1a1a;
+}
